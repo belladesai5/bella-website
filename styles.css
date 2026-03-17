@@ -1,0 +1,186 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f8f8fc;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* Navigation bar */
+nav {
+  background-color: #4b2e83;
+  padding: 18px 0;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 18px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #d6c6f5;
+}
+
+/* General section styling */
+section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 40px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+/* Headings */
+h1 {
+  color: #4b2e83;
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #4b2e83;
+  font-size: 30px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #e6def5;
+  padding-bottom: 8px;
+}
+
+h3 {
+  color: #6a4caf;
+  font-size: 22px;
+  margin-top: 25px;
+  margin-bottom: 12px;
+}
+
+/* Paragraphs */
+p {
+  font-size: 19px;
+  margin-bottom: 18px;
+}
+
+/* Lists */
+ul,
+ol {
+  padding-left: 27px;
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Image styling */
+img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Video iframe */
+iframe {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* Regular links inside sections */
+a {
+  color: #4b2e83;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Contact section links */
+#contact a {
+  color: #4b2e83;
+}
+
+/* Optional home page emphasis */
+#home {
+  text-align: center;
+}
+
+#home p {
+  max-width: 700px;
+  margin: 0 auto 18px auto;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #4b2e83;
+  color: white;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+/* Back to top link spacing */
+#contact p:last-child {
+  margin-top: 25px;
+}
+
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+
+.skill-box {
+  background-color: #f4f4ff;
+  padding: 25px;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.skill-box h3 {
+  color: #4b2e83;
+  margin-bottom: 15px;
+}
+
+.skill-box p {
+  margin: 6px 0;
+  font-size: 16px;
+}
+
+
+#home img {
+  width: 360px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+
+#involvement img {
+  width: 50%;
+  max-width: 400px;
+  display: block;
+  margin: 25px auto;
+  border-radius: 10px;
+}
